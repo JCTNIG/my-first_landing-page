@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+ 
+
+.one {
+  flex: 1;
+
+  color: white;
+  background-color: rgb(38, 51, 63);
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.logo {
+  margin-right: auto;
+  text-decoration: none;
+  
+}
+
+.intro {
+  display: flex;
+  gap: 12px;
+}
+
+.awesome, .placeholder {
+  flex: 1;
+  
+}
+
+.awesome {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 10px;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.placeholder {
+  display: flex;
+  background-color: darkgray;
+  justify-content: center;
+  align-items: center;
+}
+/* ----- TWO ----- */
+
+.two {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.works {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+
+
+}
+
+.work-box {
+  border-radius: 10%;
+  border: 3px solid blue;
+  height: 150px;
+  width: 150px;
+}
+
+/* ----- THREE ----- */
+
+.three {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+}
+
+.three-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 300px;
+  margin: 40px;
+}
+
+.sign {
+  align-self: flex-end;
+}
+
+/* ----- FOUR ----- */
+
+.four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  gap: 40px;
+  background-color: blue;
+  color: white;
+  padding: 10px 50px;
+  margin: 100px 50px;flex-wrap: nowrap;
+  border-radius: 10px;
+
+}
+.contact-sign {
+  border: 2px solid white;
+  background-color: blue;
+  border-radius: 5px;
+  color: white;
+  align-self: flex-end;
+  flex-shrink: 0;
+}
+
+/* ----- Five ----- */
+
+.five {
+  background-color: rgb(38, 51, 63);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
